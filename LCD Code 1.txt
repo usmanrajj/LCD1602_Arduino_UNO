@@ -1,0 +1,31 @@
+/*
+Copy This code to Arduino ide software
+
+Rajj YT 
+Full vedio available on Youtube :-
+https://youtu.be/erG7X5-o474
+
+link for library
+https://github.com/dniklaus/arduino-display-lcdkeypad
+
+Circuit diagram :-\
+https://drive.google.com/drive/folders/1BP5LGc9HzCGfYmPHHU0y8QkxHv-xD2xX
+
+*/
+// Code 1 
+#include <LiquidCrystal.h>  // Add this library
+
+int rs = 11;  // connect rs pin to digital pin 11
+int e = 12;   // connect  e pin to digital pin 12
+int d4 = 4;   // connect d4 pin to digital pin 4
+int d5 = 5;   // connect d5 pin to digital pin 5
+int d6 = 6;   // connect d6 pin to digital pin 6
+int d7 = 7;   // connect d7 pin to digital pin 7
+
+LiquidCrystal lcd(rs, e, d4, d5, d6, d7);  // sequence must be same
+
+void setup() {
+  lcd.begin(16, 2);               // 16 colums & 2 rows
+  lcd.print("Welcome, Hi Rajj");  // show this line display on line
+}
+void loop() {}
