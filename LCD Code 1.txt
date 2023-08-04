@@ -6,7 +6,7 @@ Full vedio available on Youtube :-
 https://youtu.be/erG7X5-o474
 
 link for library
-https://github.com/dniklaus/arduino-display-lcdkeypad
+https://github.com/arduino-libraries/LiquidCrystal
 
 Circuit diagram :-\
 https://drive.google.com/drive/folders/1BP5LGc9HzCGfYmPHHU0y8QkxHv-xD2xX
